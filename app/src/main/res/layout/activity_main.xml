@@ -144,7 +144,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
         android:textSize="30sp"
-        android:text="Added some more text to test the Git integration" />
+        android:text="Updated text" />
 
 
 </LinearLayout>
