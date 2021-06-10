@@ -18,10 +18,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    /** Called when the user activates the Next Page button */
-    fun moveNextPage(view: View) {
-        // Do something in response to button
-        val intent = Intent(this, second_page::class.java)
+    /** Called when the user activates the 'Basic Layout Testing' button */
+    fun moveBasicLayoutTesting(view: View) {
+        // Moves user to the activity BasicLayoutTestingActivity
+        val intent = Intent(this, BasicLayoutTestingActivity::class.java)
+        startActivity(intent)
+    }
+
+    /** Called when the user activates the 'Form Controls' button */
+    fun moveFormControls(view: View) {
+        // Moves user to the activity FormControlsActivity
+        val intent = Intent(this, FormControlsActivity::class.java)
         startActivity(intent)
     }
 

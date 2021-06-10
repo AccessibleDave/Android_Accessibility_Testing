@@ -5,155 +5,23 @@
     android:padding="20dp"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/MainTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Basic Layout Testing"
-        android:textSize="48sp"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:layout_marginBottom="0dp"/>
-
-    <TextView
-        android:id="@+id/Author"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="By David Bowley"
-        android:textSize="15sp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"/>
-
-    <TextView android:id="@+id/CenterButtonText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:text="This is a center aligned button"/>
-
-    <Button android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="5dp"
-        android:text="Hello!" />
-
-    <TextView android:id="@id/text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:text="These are evenly spaced buttons"/>
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:orientation="vertical" >
-
-        <Button android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Smoll!" />
-
-        </LinearLayout>
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-        <Button android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Smoll!" />
-
-        </LinearLayout>
-
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
-
-        <Button android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Smoll!" />
-
-            </LinearLayout>
-
-
-    </LinearLayout>
-
-    <TextView android:id="@+id/AccessibilityIntro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp"
-        android:text="Let's add some accessible elements..."/>
-
-    <TextView android:id="@+id/RadioGroupLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="What's your favourite drink?"/>
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <RadioButton
-            android:id="@+id/radioButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Coke Zero"
-            android:contentDescription="What's your favourite drink? Coke Zero" />
-
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pepsi Max" />
-
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Rola Cola" />
-
-    </RadioGroup>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="Updated text" />
-
     <Button
-        android:id="@+id/buttonNextPage"
+        android:id="@+id/buttonMoveFormControls"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:onClick="moveNextPage"
-        android:text="Next Page" />
+        android:onClick="moveFormControls"
+        android:text="Form Controls" />
+
+    <Button
+        android:id="@+id/buttonMoveBasicLayoutTesting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="moveBasicLayoutTesting"
+        android:text="Basic Layout Testing" />
 
 
 </LinearLayout>

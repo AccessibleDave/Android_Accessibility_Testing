@@ -20,13 +20,35 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".second_page">
+        <activity
+            android:name=".second_pageActivity"
+            android:label="@string/title_second_pageActivity"
+            android:theme="@style/Theme.DemoApp">
             <intent-filter>
                 <action android:name="package.OtherActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".BasicLayoutTestingActivity"
+            android:label="@string/title_BasicLayoutTesting"
+            android:theme="@style/Theme.DemoApp">
+            <intent-filter>
+                <action android:name="package.OtherActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FormControlsActivity"
+            android:label="@string/title_FormControls"
+            android:theme="@style/Theme.DemoApp">>
+            <intent-filter>
+                <action android:name="package.OtherActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
