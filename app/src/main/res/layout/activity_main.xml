@@ -5,14 +5,25 @@
     android:padding="20dp"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/buttonMoveFormControls"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/textViewWelcomeHeading"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:onClick="moveFormControls"
-        android:text="Form Controls" />
+        android:layout_gravity="center_horizontal
+"       android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/text_WelcomeHeading"
+        android:accessibilityHeading="true"/>
+
+    <TextView
+        android:id="@+id/textViewWelcomeMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal
+"       android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_WelcomeMessage" />
 
     <Button
         android:id="@+id/buttonMoveBasicLayoutTesting"
@@ -21,7 +32,25 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:onClick="moveBasicLayoutTesting"
-        android:text="Basic Layout Testing" />
+        android:text="@string/buttonBasicLayoutTesting" />
+
+    <Button
+        android:id="@+id/buttonMoveFormControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="moveFormControls"
+        android:text="@string/buttonForm_controls" />
+
+    <Button
+        android:id="@+id/buttonMoveSandbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="moveSandbox"
+        android:text="@string/buttonSandbox" />
 
 
 </LinearLayout>

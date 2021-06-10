@@ -32,4 +32,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    /** Called when the user activates the 'Sandbox' button */
+    fun moveSandbox(view: View) {
+        // Moves user to the activity SandboxActivity
+        val intent = Intent(this, SandboxActivity::class.java)
+        startActivity(intent)
+    }
+
 }

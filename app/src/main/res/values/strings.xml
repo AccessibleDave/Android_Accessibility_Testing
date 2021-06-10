@@ -7,4 +7,9 @@
     <string name="button_BackToMenu">Back to Menu</string>
     <string name="title_BasicLayoutTesting">Basic Layout Testing</string>
     <string name="title_FormControls">Form Controls</string>
+    <string name="text_WelcomeMessage">This is a prototype app for demonstrating Android accessibility. It is currently in development and aims to showcase the various ways in which components can be made accessible.</string>
+    <string name="text_WelcomeHeading">Welcome to the Android Accessibility Demonstration App!</string>
+    <string name="buttonBasicLayoutTesting">Basic Layout Testing</string>
+    <string name="buttonForm_controls">Form Controls</string>
+    <string name="buttonSandbox">Sandbox</string>
 </resources>
