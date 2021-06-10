@@ -137,5 +137,14 @@
 
     </RadioGroup>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="Added some more text to test the Git integration" />
+
 
 </LinearLayout>
