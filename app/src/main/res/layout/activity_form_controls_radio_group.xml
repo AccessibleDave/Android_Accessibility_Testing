@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textViewRadioGroupHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal
+"       android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/text_RadioGroupHeading"
+        android:accessibilityHeading="true" />
+
+
+    <TextView
+        android:id="@+id/RadioGroupsIntro1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_RadioGroupIntro1"/>
+
+    <TextView
+        android:id="@+id/RadioGroupsIntro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_RadioGroupIntro2"/>
+
+    <TextView
+        android:id="@+id/RadioGroupsIntro3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_RadioGroupIntro3"/>
+
+    <TextView
+        android:id="@+id/RadioGroupsIntro4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:text="@string/text_RadioGroupIntro4"/>
+
+    <Button android:id="@+id/buttonFormControlsRadioGroupSub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="moveFormControlsRadioGroupSub1"
+        android:text="@string/button_FormContolsRadioGroupSub1" />
+
+
+
+
+    <Button android:id="@+id/buttonBackToFormControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="moveFormControls"
+        android:text="@string/button_BackToFormControls" />
+
+    <Button android:id="@+id/buttonBackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="moveBackHome"
+        android:text="@string/button_BackToMenu" />
+
+
+</LinearLayout>

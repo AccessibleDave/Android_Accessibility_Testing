@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal
 "       android:gravity="center_horizontal"
+        android:textSize="14sp"
         android:text="Clean page for random testing" />
 
     <Button android:id="@+id/buttonBackToMenu"

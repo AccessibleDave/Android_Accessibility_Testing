@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Demo App</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Android Accessibility Demonstration App</string>
+    <string name="title_activity_main">Main Menu</string>
 
     <!-- Strings used for fragments for navigation -->
 
@@ -12,4 +12,22 @@
     <string name="buttonBasicLayoutTesting">Basic Layout Testing</string>
     <string name="buttonForm_controls">Form Controls</string>
     <string name="buttonSandbox">Sandbox</string>
+    <string name="text_FormControlsHeading">Form Controls</string>
+    <string name="text_FormControlsDescription">Here you will find a variety of form control examples including radio groups, checkboxes, text inputs etc.</string>
+    <string name="button_BackToFormControls">Back to Form Controls</string>
+    <string name="button_FormControlsRadioGroup">Radio Groups</string>
+    <string name="title_FormControlsRadioGroup">Radio Groups</string>
+    <string name="title_Sandbox">Sandbox</string>
+    <string name="text_RadioGroupHeading">Radio Groups</string>
+    <string name="text_RadioGroupIntro1">Android has native radio button elements that can be used. These announce their label, role, and state, similar to how HTML radio buttons work.</string>
+    <string name="text_RadioGroupIntro2"><i>There are some differences though.</i> While the role and state can be left alone by developers as Android will handle this, the label takes a little more work. In its most simple form, the <b>android:text</b> attribute can be used as both the visible and programmatic label for the radio button.</string>
+    <string name="text_RadioGroupIntro3">This doesn\'t provide much in the way of positioning the label, and so often developers like to use their own TextView and position it how they like next to the radio button. In doing so there is no <b>android:text</b> and therefore no label. In this circumstance the <b>android:contentDescription</b> attribute should be used to provide the programmatic label and the custom TextView label hidden with <b>android:importantForAccessibility=\"no\"</b>.</string>
+    <string name="text_RadioGroupIntro4">One disadvantage compared to HTML is that despite the existence of a RadioGroup component, there is no way to programmatically label the entire group, at least not natively. There are some possible workarounds which will be shown on the following pages.</string>
+    <string name="button_BackToFormControlsRadioGroup">Back to Radio Groups</string>
+    <string name="title_FormControlsRadioGroupSub1">Radio Group Examples</string>
+    <string name="button_FormContolsRadioGroupSub1">Examples</string>
+    <string name="text_RadioGroupSub1Heading">Radio Group Examples</string>
+    <string name="text_RadioGroupSub1Example1Intro">This is a basic radio group consisting of 3 radio buttons. Each radio button\'s label is provided by <b>android:text</b>.</string>
+    <string name="text_RadioGroupSub1Example1Heading">Example 1:</string>
+
 </resources>

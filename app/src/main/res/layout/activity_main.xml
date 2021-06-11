@@ -23,6 +23,7 @@
         android:layout_gravity="center_horizontal
 "       android:gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:textSize="14sp"
         android:text="@string/text_WelcomeMessage" />
 
     <Button

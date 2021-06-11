@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class FormControlsActivity : AppCompatActivity() {
+class FormControlsRadioGroupSub1Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_form_controls)
+        setContentView(R.layout.activity_form_controls_radio_group_sub1)
     }
 
-    /** Called when the user activates the 'Radio Groups' button */
-    fun moveFormControlsRadioGroup(view: View) {
+    /** Called when the user activates the 'Back to Radio Groups' button */
+    fun moveBackFormControlsRadioGroup(view: View) {
         // Moves user to the activity FormControlsRadioGroupActivity
         val intent = Intent(this, FormControlsRadioGroupActivity::class.java)
         startActivity(intent)
@@ -24,6 +24,4 @@ class FormControlsActivity : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
-
-
 }

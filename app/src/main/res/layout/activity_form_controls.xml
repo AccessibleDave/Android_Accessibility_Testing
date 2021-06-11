@@ -5,44 +5,34 @@
     android:padding="20dp"
     android:orientation="vertical" >
 
-    <TextView android:id="@+id/AccessibilityIntro"
+    <TextView
+        android:id="@+id/textViewFormControlsHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal
+"       android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/text_FormControlsHeading"
+        android:accessibilityHeading="true"/>
+
+    <TextView android:id="@+id/text_FormControlsDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
-        android:text="Let's add some accessible elements..."/>
+        android:text="@string/text_FormControlsDescription"/>
 
-    <TextView android:id="@+id/RadioGroupLabel"
+    <Button android:id="@+id/buttonBackToFormControls"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="What's your favourite drink?"/>
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <RadioButton
-            android:id="@+id/radioButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Coke Zero"
-            android:contentDescription="What's your favourite drink? Coke Zero" />
-
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pepsi Max" />
-
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Rola Cola" />
-
-    </RadioGroup>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="moveFormControlsRadioGroup"
+        android:text="@string/button_FormControlsRadioGroup" />
 
     <Button android:id="@+id/buttonBackToMenu"
         android:layout_width="wrap_content"

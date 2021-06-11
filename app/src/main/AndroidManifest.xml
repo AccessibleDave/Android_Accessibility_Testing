@@ -8,12 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DemoApp">
-        <activity android:name=".SandboxActivity"></activity>
+        android:theme="@style/Theme.DemoApp.NoActionBar">
+
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.DemoApp.NoActionBar">
+            android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,8 +21,7 @@
         </activity>
         <activity
             android:name=".BasicLayoutTestingActivity"
-            android:label="@string/title_BasicLayoutTesting"
-            android:theme="@style/Theme.DemoApp">
+            android:label="@string/title_BasicLayoutTesting">
             <intent-filter>
                 <action android:name="package.OtherActivity" />
 
@@ -31,16 +29,25 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SandboxActivity"
+            android:label="@string/title_Sandbox" />
+        <activity
             android:name=".FormControlsActivity"
-            android:label="@string/title_FormControls"
-            android:theme="@style/Theme.DemoApp">
-            >
+            android:label="@string/title_FormControls">
             <intent-filter>
                 <action android:name="package.OtherActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FormControlsRadioGroupActivity"
+            android:label="@string/title_FormControlsRadioGroup" />
+
+        <activity
+            android:name=".FormControlsRadioGroupSub1Activity"
+            android:label="@string/title_FormControlsRadioGroupSub1"/>
+
     </application>
 
 </manifest>
